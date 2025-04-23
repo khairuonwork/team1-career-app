@@ -1,0 +1,5 @@
+export * from './hero'
+export * from './layanan'
+export * from './splashblur'
+export * from './testimoni'
+export * from './berita'
