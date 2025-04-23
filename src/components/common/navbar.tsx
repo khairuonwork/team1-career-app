@@ -16,13 +16,13 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative w-8 h-8 mr-2">
+          <div className="relative mr-2">
             <Image
               src="/logo.svg"
               alt="Career.ly"
               width={200}
               height={200}
-              className="object-contain"
+              className="object-contain w-36 h-14"
             />
           </div>
         </Link>
@@ -94,7 +94,21 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-
+        {/* Login/Register */}
+        <div className="hidden md:flex space-x-4">
+          <Link
+            href="/login"
+            className="px-4 py-2 rounded-full text-sm text-gray-600 hover:bg-gray-200"
+          >
+            Login
+          </Link>
+          <Link
+            href="/register"
+            className="px-4 py-2 rounded-full text-sm bg-blue-500 text-white hover:bg-blue-600"
+          >
+            Register
+          </Link>
+        </div>
         {/* User Profile */}
         <div className="flex items-center">
           <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-300">
