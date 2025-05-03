@@ -104,7 +104,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/register"
-            className="px-4 py-2 rounded-full text-sm bg-blue-500 text-white hover:bg-blue-600"
+            className="px-4 py-2 rounded-full text-sm bg-[#4682B4] text-white hover:bg-blue-600"
           >
             Register
           </Link>
